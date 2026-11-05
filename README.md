@@ -14,7 +14,12 @@ This folder contains the storefront, separate product detail page, owner panel s
 - Product departments are derived from the workbook New Category value. Public product cards do not show the category label.
 - Home collection rails use only products tagged in the workbook: Everyday favourites (11), New Launch (15), Best Sellers (9), In Focus (10), Deal of the Day (1), and Limited Time Deals (12). Rails show four cards at a time on desktop, with the rest available by horizontal scrolling.
 - Price tabs show workbook MRP and Offer Price; the percentage bubble has no “discount” label. Confirm prices and Amazon offer details on the listing before launch.
-- No supplied image matched a workbook SKU exactly. Missing product photos use the supplied Inari mnemonic (`media/inari-mark.jpg`), not an unrelated item image.
+- Six exact SKU-matched product photos are included. Products without a verified matching photo use the supplied Inari mnemonic (`media/inari-mark.jpg`), not an unrelated item image.
+- Product rating and review data were not supplied in the workbook, so the site hides ratings until verified values are added.
+
+## Responsive design updates
+
+The header uses a compact category navigation, category tiles use varied illustrated shapes, and product collections have left/right arrow controls. Product cards use consistent heights, show crossed-out MRP, percentage off, and a logo-colored price tab, and link to a separate product page. Amazon buttons say **BUY NOW**; hovering or keyboard focusing them reveals the Amazon wordmark. The Deal of the Day uses a large, responsive product feature layout.
 
 ## Owner panel and data
 
